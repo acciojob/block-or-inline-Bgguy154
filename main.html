@@ -1,24 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Block Inline Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Inline Test</title>
 </head>
 <body>
 
-  <h1>Answer: Block</h1>
-  <p>Answer: Block</p>
-  <div>Answer: Block</div>
+    <div class="test-container">
+        <h1 data-ns-test="block-inline-h1">Test1</h1>
+        <h1 data-ns-test="block-inline-h1">Test2</h1>
+        <p>Answer: Block</p>
+    </div>
 
-  <button>Answer: Inline</button>
-  <input value="Answer: Inline" />
+    <div class="test-container">
+        <button data-ns-test="block-inline-button">Test1</button>
+        <button data-ns-test="block-inline-button">Test2</button>
+        <p>Answer: Inline</p>
+    </div>
 
-  <sup>Answer: Inline</sup>
-  <sub>Answer: Inline</sub>
+    <div class="test-container">
+        <input data-ns-test="block-inline-input" value="Test1">
+        <input data-ns-test="block-inline-input" value="Test2">
+        <p>Answer: Inline</p>
+    </div>
 
-  <span>Answer: Inline</span>
-  <code>Answer: Inline</code>
+    <div class="test-container">
+        <sup data-ns-test="block-inline-sup">Test1</sup>
+        <sup data-ns-test="block-inline-sup">Test2</sup>
+        <p>Answer: Inline</p>
+    </div>
+
+    <div class="test-container">
+        <p data-ns-test="block-inline-p">Test1</p>
+        <p data-ns-test="block-inline-p">Test2</p>
+        <p>Answer: Block</p>
+    </div>
+
+    <div class="test-container">
+        <div data-ns-test="block-inline-div">Test1</div>
+        <div data-ns-test="block-inline-div">Test2</div>
+        <p>Answer: Block</p>
+    </div>
+
+    <div class="test-container">
+        <sub data-ns-test="block-inline-sub">Test1</sub>
+        <sub data-ns-test="block-inline-sub">Test2</sub>
+        <p>Answer: Inline</p>
+    </div>
+
+    <div class="test-container">
+        <span data-ns-test="block-inline-span">Test1</span>
+        <span data-ns-test="block-inline-span">Test2</span>
+        <p>Answer: Inline</p>
+    </div>
+
+    <div class="test-container">
+        <code data-ns-test="block-inline-code">Test1</code>
+        <code data-ns-test="block-inline-code">Test2</code>
+        <p>Answer: Inline</p>
+    </div>
+    
+    <div class="test-container">
+        <cite data-ns-test="block-inline-cite">Test1</cite>
+        <cite data-ns-test="block-inline-cite">Test2</cite>
+        <p>Answer: Inline</p>
+    </div>
 
 </body>
 </html>
